@@ -242,12 +242,8 @@ img{
 .about__subtitle{
   margin-bottom: var(--mb-2);
 }
-.about__img{
-  justify-self: center;
-}
-.about__img img{
-  
-}
+
+
 
 /* ===== SKILLS =====*/
 .skills__container{

@@ -191,6 +191,7 @@ img{
 }
 .home__data{
   align-self: center;
+  z-index: 1;
 }
 .home__title{
   font-size: var(--big-font-size);
@@ -219,6 +220,17 @@ img{
   width: 200px;
   z-index: var(--z-back);
   
+}
+
+.home-circle {
+  background-color: #d8d8d8;
+  position: absolute;
+  margin-top: 5.5rem;
+  margin-left: 10rem;
+  width: 33rem;
+  height: 33rem;
+  z-index: -11;
+  border-radius: 100%;
 }
 
 /*BUTTONS*/

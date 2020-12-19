@@ -381,6 +381,13 @@ img{
 }
 
 /* ===== MEDIA QUERIES=====*/
+
+@media only screen and (min-device-width : 320px)
+and (max-device-width : 480px){
+  .home-circle{
+    display: none;
+  }
+}
 @media screen and (min-width: 768px){
   body{
     margin: 0;
@@ -434,9 +441,12 @@ img{
   .home__img{
     border-radius: .5rem;
     width: 457px;
-    bottom: 15%;
+    bottom: 10%;
+    
   }
+  
 
+  
   .about__container, .skills__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;

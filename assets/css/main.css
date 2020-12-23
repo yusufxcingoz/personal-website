@@ -316,6 +316,9 @@ img{
 .skills__music{
     width: 53.8%;
 }
+.skills__bootstrap{
+    width: 12%;
+}
 
 /* ===== WORK =====*/
 .work__container{
